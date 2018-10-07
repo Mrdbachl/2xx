@@ -23,3 +23,4 @@ Version 202.0
 	- created menuItems array
 - included in the very top of the header.inc.php a require_once to the include/menu.data.php file
 - included in the very top of the header.inc.php a require_once to the include/functions.inc.php file
+- menu looked wonky in production and on local host. forgot to include carrots in opening <ul> tag in functions.inc.php file. corrected.

@@ -1,13 +1,12 @@
 <?php
 
-
-	function menuBuilder ( $fatboy ) {
+	function menuBuilder ( $obj ) {
 		
-		echo ('ul');
+		echo('<ul>');
 		
-		foreach ( $fatboy as $key => $value ) {
+		foreach ( $obj as $key => $value ) {
 			
-			echo ( '<li><a href="' . $value[ 'MenuLink' ].'">'. $value[ 'MenuName' ] . '</a></li>' );
+			echo( '<li><a href="' . $value[ 'MenuLink' ].'">' . $value[ 'MenuName' ] . '</a></li>' );
 			
 		}
 		
